@@ -1,0 +1,21 @@
+.main1{
+  background-color: rgb(35, 110, 222);
+  height: 500px;
+  width: 400px;
+  padding-left: 100px;
+  padding-top: 90px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.changed{
+  color: rgb(255, 255, 255);
+}
+
+input{
+  height: 30px;
+}
+
+body{
+  background-color: rgb(68, 59, 59);
+}
