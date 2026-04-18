@@ -15,4 +15,4 @@ app.get('/', (req, res) => {
 app.get('/home', (req, res) => {
     console.log('request made');
     res.sendFile('/index.html', {root: __dirname});
-}
+});
