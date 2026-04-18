@@ -3,6 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const server = http.createServer((req,res)=>{
     console.log(req.url,req.method)
+    
+    // response with header
     res.setHeader('Content-Type','text/html')
     var path = './view'
     switch(req.url){
